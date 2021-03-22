@@ -20,18 +20,22 @@
 
 h1 {
     font-family: anton;
+    padding-top: 20px;
+}
+
+h2 {
+    margin: auto;
+    width: 1280px;
+    font-family: akayatelivigala;
+    padding-top: 80px;
 }
 
 #AGRUPA {
-    font-size: 25px;
+    font-size: 22px;
     font-family: anton;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-align: center;
     background: url(img/Background-3.jpg);
     background-attachment: fixed;
-}
-
-.agrupa {
-    font-family: AkayaTelivigala;
 }

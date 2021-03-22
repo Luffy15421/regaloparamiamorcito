@@ -19,15 +19,17 @@
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 75px;
     font-family: redressed;
     font-weight: bold;
     color: rgba(0, 153, 224, 0.925);
+    padding-top: 5px;
 }
 
 h2 {
-    font: bold 30px verdana;
+    font: bold 40px verdana;
     color: rgba(0, 153, 224, 0.925);
+    padding-top: 50px;
 }
 
 #AGRUPO {
