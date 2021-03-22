@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Redressed";
+    src: url(fonts/letra1.ttf);
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url(fonts/letra2.ttf);
+}
+
+@font-face {
+    font-family: "DotGothic16";
+    src: url(fonts/letra3.ttf);
+}
+
+@font-face {
+    font-family: "AkayaTelivigala";
+    src: url(fonts/letra4.ttf);
+}
+
+h1 {
+    font-size: 60px;
+    font-family: redressed;
+    font-weight: bold;
+    color: rgba(0, 153, 224, 0.925);
+}
+
+h2 {
+    font: bold 30px verdana;
+    color: rgba(0, 153, 224, 0.925);
+}
+
+#AGRUPO {
+    margin: auto;
+    width: auto;
+    background: url(img/Background-2.jpg);
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+}

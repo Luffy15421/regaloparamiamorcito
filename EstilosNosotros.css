@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Redressed";
+    src: url(fonts/letra1.ttf);
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url(fonts/letra2.ttf);
+}
+
+@font-face {
+    font-family: "DotGothic";
+    src: url(fonts/letra3.ttf);
+}
+
+@font-face {
+    font-family: "AkayaTelivigala";
+    src: url(fonts/letra4.ttf);
+}
+
+h1 {
+    font-family: redressed;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(221, 1, 1, 0.815);
+}
+
+body {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.91);
+    background-attachment: fixed;
+}
+
+.IMG {
+    width: 600px;
+    height: 850px;
+    object-fit: cover;
+}
