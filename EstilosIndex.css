@@ -32,27 +32,67 @@ h2 {
     color: rgba(0, 153, 224, 0.925);
 }
 
-header,
-nav {
-    color: rgba(0, 153, 224, 0.925);
-}
-
 body {
     margin: auto;
-    width: auto;
     background: url(img/Background-1.jpg);
     text-align: center;
     display: block;
     background-attachment: fixed;
+    width: auto;
 }
 
-.botones {
-    text-decoration: none;
+.navegacion {
+    width: 1000px;
+    margin: 30px auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.navegacion ul {
     list-style: none;
-    color: rgba(0, 153, 224, 0.925);
-    font-size: 32px;
-    font-family: Redressed;
-    font-weight: bold;
-    padding: 2px;
+}
+
+.menu>li {
+    position: relative;
     display: inline-block;
+}
+
+.menu>li>a {
+    display: block;
+    color: rgb(0, 153, 224);
+    padding: 15px 35px;
+    font-family: redressed;
+    font-weight: bold;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #434343;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    background-color: rgb(20, 9, 27);
+    width: 80%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a {
+    display: block;
+    color: rgb(0, 153, 224);
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: redressed;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
 }

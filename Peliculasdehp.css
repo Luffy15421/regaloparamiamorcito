@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Redressed";
+    src: url(fonts/letra1.ttf);
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url(fonts/letra2.ttf);
+}
+
+@font-face {
+    font-family: "DotGothic16";
+    src: url(fonts/letra3.ttf);
+}
+
+@font-face {
+    font-family: "AkayaTelivigala";
+    src: url(fonts/letra4.ttf);
+}
+
+@font-face {
+    font-family: "harryp";
+    src: url(fonts/letra5.ttf);
+}
+
+h1 {
+    font-size: 100px;
+    font-family: Harryp;
+    font-weight: bold;
+    color: #e3e4e5;
+    padding-top: 5px;
+}
+
+h2 {
+    font: bold 50px harryp;
+    color: #e3e4e5;
+    padding-top: 50px;
+}
+
+.agrupo {
+    margin: auto;
+    width: auto;
+    background: url(img/harryp.png);
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+}
